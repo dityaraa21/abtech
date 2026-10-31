@@ -9,31 +9,32 @@ export function ProjectsSection() {
     location: 'Bali',
     image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }, {
-    title: 'Sentra Medika Hospital',
-    category: 'Rumah Sakit',
-    location: 'Jakarta Selatan',
-    image: 'https://images.unsplash.com/photo-1587351021759-3e566b9af923?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-  }, {
-    title: 'Menara Mandiri Tower',
-    category: 'Perkantoran',
-    location: 'Surabaya',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-  }, {
     title: 'Green View Apartment',
     category: 'Apartemen',
     location: 'Bandung',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-  }, {
-    title: 'Metropolitan Mall',
-    category: 'Pusat Perbelanjaan',
-    location: 'Bekasi',
-    image: 'https://images.unsplash.com/photo-1519567241046-7f570eee3c9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-  }, {
-    title: 'Universitas Teknologi',
-    category: 'Pendidikan',
-    location: 'Yogyakarta',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+  },  {
+    title: 'Menara Mandiri Tower',
+    category: 'Perkantoran',
+    location: 'Surabaya',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }];
+  // {
+  //   title: 'Metropolitan Mall',
+  //   category: 'Pusat Perbelanjaan',
+  //   location: 'Bekasi',
+  //   image: 'https://images.unsplash.com/photo-1519567241046-7f570eee3c9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+  // }, {
+  //   title: 'Sentra Medika Hospital',
+  //   category: 'Rumah Sakit',
+  //   location: 'Jakarta Selatan',
+  //   image: 'https://images.unsplash.com/photo-1587351021759-3e566b9af923?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+  // }, {
+  //   title: 'Universitas Teknologi',
+  //   category: 'Pendidikan',
+  //   location: 'Yogyakarta',
+  //   image: 'https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+  // }
   return <section id="projects" className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
